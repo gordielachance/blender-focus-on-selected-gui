@@ -1,7 +1,7 @@
 bl_info = {
     "name": "Focus on Selected (GUI)",
     "author": "Benoît G.",
-    "version": (1, 0, 0),
+    "version": (1, 1, 0),
     "blender": (4, 2, 0),
     "location": "3D Viewport header, Outliner header",
     "description": (
@@ -21,7 +21,7 @@ class VIEW3D_OT_frame_selected_button(bpy.types.Operator):
 class OUTLINER_OT_reveal_selected_button(bpy.types.Operator):
     """Scroll to and reveal the active item in the outliner"""
     bl_idname = "outliner.reveal_selected_button"
-    bl_label = "Focus on Selected"
+    bl_label = "Focus on Active"
     bl_options = {'REGISTER', 'UNDO'}
     def execute(self, context):
         bpy.ops.outliner.show_active()

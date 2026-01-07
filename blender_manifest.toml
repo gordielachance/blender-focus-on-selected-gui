@@ -1,12 +1,12 @@
-schema_version = "1.0.0"
+schema_version = "1.1.0"
 
 id = "focus_on_selected_gui"
 name = "Focus on Selected (GUI)"
-tagline = "Adds buttons to frame/reveal selected objects in the 3D Viewport and in the Outliner.  Emulates the Numpad Period (.) shortcut."
+tagline = "Frame/reveal selected objects button in Viewport and Outliner"
 version = "1.0.0"
 type = "add-on"
 
-tags = ["Interface", "User Interface"]
+tags = ["User Interface"]
 
 maintainer = "Benoît G."
 license = ["SPDX:GPL-3.0-or-later"]
