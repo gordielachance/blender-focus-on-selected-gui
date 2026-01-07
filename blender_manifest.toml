@@ -1,0 +1,19 @@
+schema_version = "1.0.0"
+
+id = "focus_on_selected_gui"
+name = "Focus on Selected (GUI)"
+tagline = "Adds buttons to frame/reveal selected objects in the 3D Viewport and in the Outliner.  Emulates the Numpad Period (.) shortcut."
+version = "1.0.0"
+type = "add-on"
+
+tags = ["Interface", "User Interface"]
+
+maintainer = "Benoît G."
+license = ["SPDX:GPL-3.0-or-later"]
+
+website = "https://github.com/gordielachance/blender-focus-on-selected-gui"
+
+blender_version_min = "4.2.0"
+
+[permissions]
+files = "Access to UI headers"
