@@ -1,9 +1,9 @@
-schema_version = "1.1.0"
+schema_version = "1.0.0"
 
 id = "focus_on_selected_gui"
 name = "Focus on Selected (GUI)"
 tagline = "Frame/reveal selected objects button in Viewport and Outliner"
-version = "1.0.0"
+version = "1.1.0"
 type = "add-on"
 
 tags = ["User Interface"]
